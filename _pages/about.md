@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I'm Chenghao Mo, an undergraduate in Computer Engineering at the University of Illinois at Urbana-Champaign and Zhejiang University. Engaged in cutting-edge research with Professor [Daniel Kang](https://ddkang.github.io/) in the AIDB project, I focus on Systems and Compilers for Machine Learning, particularly in optimizing machine learning queries. Passionate about Computer Systems and Machine Learning Applications, I aim to pursue a Master's degree in Computer Science in Fall 2024.
+I'm Chenghao Mo, an undergraduate in Computer Engineering at the University of Illinois at Urbana-Champaign and Zhejiang University, with a strong focus on Machine Learning (ML) applications in Computer Systems. I'm currently collaborating with Professor [Daniel Kang](https://ddkang.github.io/) on the AIDB project, dedicated to enhancing Systems and Compilers for ML models, particularly through optimizing machine learning queries. My goal is to further develop my expertise in this area by pursuing a Master's degree in Computer Science starting Fall 2024.
