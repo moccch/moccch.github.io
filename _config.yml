@@ -83,7 +83,7 @@ author:
   name             : "Chenghao Mo"
   avatar           : "profile.png"
   bio              : "UIUC MSCS"
-  location         : "Illinois, United States"
+  location         : # "Illinois, United States"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=Z9-vI5oAAAAJ"
