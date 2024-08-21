@@ -8,10 +8,9 @@ author_profile: true
 ## AIDB: a Sparsely Materialized Database for Queries using Machine Learning
 
 - Tengjun Jin, Akash Mittal, Chenghao Mo, Jiahao Fang, Chengsong Zhang, Timothy Dai, Daniel Kang.
-  "AIDB: a Sparsely Materialized Database for Queries using Machine Learning."
-  DEEM '24: Proceedings of the Eighth Workshop on Data Management for End-to-End Machine Learning,
+- DEEM '24: Proceedings of the Eighth Workshop on Data Management for End-to-End Machine Learning,
   Pages 23-28.
-  https://doi.org/10.1145/3650203.3663329
+- DOI: 10.1145/3650203.3663329
 
 ### Abstract
 Analysts and scientists are interested in automatically analyzing the semantic contents of unstructured, non-tabular data (videos, images, text, and audio). These analysts have turned to unstructured data systems leveraging machine learning (ML). The most common method of using ML in analytics systems is to call them as user-defined functions (UDFs). Unfortunately, UDFs can be difficult for query optimizers to reason over. Furthermore, they can be difficult to implement and unintuitive to application users.

@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Chenghao Mo"
   avatar           : "profile.png"
-  bio              : "ZJU & UIUC Undergraduate 2020-2024, Computer Engineering"
+  bio              : "UIUC MSCS"
   location         : "Illinois, United States"
   employer         :
   pubmed           : 
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=Z9-vI5oAAAAJ"
   email            : "cmo8@illinois.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : 
+  linkedin         : "www.linkedin.com/in/chenghao-mo-340741270"
+  orcid            : "https://orcid.org/0009-0003-9860-6325"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
