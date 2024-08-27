@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : "Chenghao Mo UIUC"
+google_site_verification : "google-site-verification=CFZmMOyvjHKvDIc0778mXweT8AtCjSlkA2ZLtGoP9Zk"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
