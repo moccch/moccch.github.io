@@ -1,0 +1,183 @@
+/* Enhanced News Section */
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.2em;
+  padding: 1em 1.2em;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 8px;
+  border-left: 4px solid #28a745;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.news-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.news-date {
+  font-weight: 700;
+  color: #495057;
+  min-width: 120px;
+  font-size: 0.95em;
+  margin-right: 1em;
+  background: #fff;
+  padding: 0.3em 0.6em;
+  border-radius: 20px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+}
+
+/* Enhanced Paper Section */
+.paper-entry {
+  position: relative;
+  margin-bottom: 2.5em;
+  padding: 2em;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 12px;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.paper-entry:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.paper-conference-badge {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: white;
+  padding: 0.4em 1em;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.3);
+}
+
+.paper-title {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.8em;
+  line-height: 1.4;
+  margin-top: 0.5em;
+}
+
+.paper-authors {
+  margin-bottom: 0.6em;
+  font-size: 1.05em;
+  color: #495057;
+  line-height: 1.5;
+}
+
+.paper-venue {
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 1em;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.paper-highlight {
+  color: #dc3545;
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 1.2em;
+  padding: 0.8em;
+  background: rgba(220, 53, 69, 0.1);
+  border-radius: 6px;
+  border-left: 3px solid #dc3545;
+}
+
+.paper-buttons {
+  margin-top: 1.5em;
+  display: flex;
+  gap: 0.8em;
+}
+
+.btn-bib, .btn-artifact {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-bib {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: white;
+  border: 2px solid transparent;
+}
+
+.btn-bib:hover {
+  background: linear-gradient(135deg, #20c997 0%, #28a745 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+  color: white;
+}
+
+.btn-artifact {
+  background: linear-gradient(135deg, #6f42c1 0%, #e83e8c 100%);
+  color: white;
+  border: 2px solid transparent;
+}
+
+.btn-artifact:hover {
+  background: linear-gradient(135deg, #e83e8c 0%, #6f42c1 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(111, 66, 193, 0.3);
+  color: white;
+}
+
+/* Section Headers */
+.page__content h2 {
+  font-size: 1.8em;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  color: #2c3e50;
+  position: relative;
+  padding-bottom: 0.5em;
+}
+
+.page__content h2:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #007bff, #28a745);
+  border-radius: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .news-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .news-date {
+    margin-bottom: 0.5em;
+    margin-right: 0;
+  }
+  
+  .paper-conference-badge {
+    position: static;
+    margin-bottom: 1em;
+    display: inline-block;
+  }
+  
+  .paper-buttons {
+    flex-direction: column;
+  }
+} 

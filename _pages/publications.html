@@ -5,32 +5,124 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+/* Clean publications styling */
+.publications-container {
+  max-width: 800px;
+  margin: 0;
+  padding: 0;
+}
 
-{% include base_path %}
+.publication-entry {
+  margin-bottom: 2.5em;
+  line-height: 1.6;
+  padding-left: 0;
+}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+.publication-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
 
+.publication-title a {
+  color: #4285f4;
+  text-decoration: none;
+}
 
+.publication-title a:hover {
+  text-decoration: underline;
+}
 
+.publication-authors {
+  color: #333;
+  margin-bottom: 0.3em;
+  font-size: 1em;
+}
+
+.publication-authors strong {
+  font-weight: 600;
+}
+
+.publication-venue {
+  font-style: italic;
+  color: #666;
+  font-size: 0.95em;
+  margin-bottom: 0.8em;
+}
+
+.publication-links {
+  margin-top: 0.5em;
+}
+
+.publication-links a {
+  display: inline-block;
+  margin-right: 1em;
+  padding: 0.3em 0.8em;
+  background: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.publication-links a:hover {
+  background: #e0e0e0;
+}
+
+/* Page title styling */
+.page__title {
+  font-size: 2em;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.5em;
+  margin-left: 0;
+  padding-left: 0;
+  border-bottom: none;
+}
+
+/* Ensure no default page margins */
+.page__content {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+</style>
+
+<div class="publications-container">
+
+  <div class="publication-entry">
+    <div class="publication-title">
+      <a href="https://arxiv.org/abs/2506.00812">VecFlow: A High-Performance Vector Data Management System for Filtered-Search on GPUs</a>
+    </div>
+    <div class="publication-authors">
+      Jingyi Xi*†¹, <strong>Chenghao Mo*¹</strong>, Ben Karsin², Artem Chirkin², Mingqin Li³, Minjia Zhang¹<br>
+      <small>¹University of Illinois Urbana-Champaign, ²Nvidia, ³Microsoft<br>
+      *Both authors contributed equally to this research. †Work done while intern at UIUC.</small>
+    </div>
+    <div class="publication-venue">
+      Proceedings of the 2026 ACM SIGMOD International Conference on Management of Data (2026)
+    </div>
+    <div class="publication-links">
+      <a href="https://arxiv.org/abs/2506.00812">Paper</a>
+      <a href="https://supercomputing-system-ai-lab.github.io/projects/vecflow/">Project</a>
+      <a href="https://github.com/Supercomputing-System-AI-Lab/VecFlow/tree/main/vecflow">Code</a>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <div class="publication-title">
+      <a href="https://dl.acm.org/doi/abs/10.1145/3650203.3663329">AIDB: a Sparsely Materialized Database for Queries using Machine Learning</a>
+    </div>
+    <div class="publication-authors">
+      Tengjun Jin, Akash Mittal, <strong>Chenghao Mo</strong>, Jiahao Fang, Chengsong Zhang, Timothy Dai, Daniel Kang
+    </div>
+    <div class="publication-venue">
+      Proceedings of the Eighth Workshop on Data Management for End-to-End Machine Learning (2024)
+    </div>
+    <div class="publication-links">
+      <a href="https://dl.acm.org/doi/abs/10.1145/3650203.3663329">Paper</a>
+    </div>
+  </div>
+
+</div> 

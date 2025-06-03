@@ -10,17 +10,13 @@
 
 @import
     "vendor/breakpoint/breakpoint",
-
     "themes",
     "theme/default",
     "theme/dark",
-
     "include/mixins",
     "vendor/susy/susy",
-
     "layout/reset",
     "layout/base",
-
     "include/utilities",
     "layout/tables",
     "layout/buttons",
@@ -29,15 +25,154 @@
     "layout/navigation",
     "layout/footer",
     "syntax",
-
     "layout/forms",
-
     "layout/page",
     "layout/archive",
     "layout/sidebar",
-
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup"
-;
+    "vendor/magnific-popup/magnific-popup";
+
+/* Professional and clean styling */
+.page__content h2 {
+  font-size: 1.4em;
+  margin-top: 2.8em;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+  color: #2c3e50;
+  border-bottom: none;
+}
+
+.page__content h2:first-of-type {
+  margin-top: 2em;
+}
+
+.page__content p {
+  line-height: 1.7;
+  margin-bottom: 1.6em;
+  font-size: 1.05em;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
+.page__content strong {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* News section styling */
+.page__content h2 + p {
+  margin-top: 1em;
+  font-size: 1.05em;
+}
+
+/* Clean paper entry styling */
+.paper-entry {
+  margin-bottom: 3em;
+  padding: 2em;
+  background: #fcfcfc;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.paper-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1em;
+  line-height: 1.4;
+}
+
+.paper-authors {
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.5;
+}
+
+.paper-venue {
+  font-style: italic;
+  color: #7f8c8d;
+  margin-bottom: 1.2em;
+  font-size: 0.95em;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.paper-highlight {
+  color: #e74c3c;
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 1.2em;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.paper-buttons {
+  margin-top: 1.5em;
+}
+
+.paper-buttons a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-right: 0.8em;
+  margin-bottom: 0.5em;
+  background: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.paper-buttons a:hover {
+  background: #2980b9;
+}
+
+/* Venue badge styling - professional colors */
+.paper-entry .paper-venue {
+  background: none;
+  color: #7f8c8d;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.95em;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 1.2em;
+  font-style: italic;
+  border: none;
+}
+
+/* Profile section - clean */
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid #ecf0f1;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Navigation - professional */
+.masthead {
+  border-bottom: 2px solid #ecf0f1;
+  background: white;
+}
+
+/* Main content area */
+.page__content {
+  max-width: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* News date styling - professional */
+.news-date {
+  font-weight: 700;
+  color: #2c3e50;
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 1em;
+}
