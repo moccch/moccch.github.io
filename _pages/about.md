@@ -36,6 +36,6 @@ I am a Master of Science in Computer Science (MSCS) student at the [University o
   <div class="paper-buttons">
     <a href="https://dl.acm.org/doi/10.1145/3749189">Paper</a>
     <a href="https://supercomputing-system-ai-lab.github.io/projects/vecflow/">Project</a>
-    <a href="https://github.com/Supercomputing-System-AI-Lab/VecFlow/tree/main/vecflow">Code</a>
+    <a href="https://github.com/Supercomputing-System-AI-Lab/VecFlow/">Code</a>
   </div>
 </div>
