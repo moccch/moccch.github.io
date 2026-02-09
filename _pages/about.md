@@ -7,18 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master of Science in Computer Science (MSCS) student at the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/), working with [Minjia Zhang](https://minjiazhang.github.io/). I am very interested in **large-scale vector databases on GPUs**, efficient data management systems, and high-performance computing for AI applications.
-
-Feel free to reach out via [email](mailto:cmo8@illinois.edu) if you are interested in my research.
+I am a Master of Science in Computer Science (MSCS) student at the [University of Illinois at Urbana-Champaign](https://cs.illinois.edu/), working with Prof. [Minjia Zhang](https://minjiazhang.github.io/) at the [SSAIL Lab](https://supercomputing-system-ai-lab.github.io/). My research focuses on **large-scale vector databases on GPUs**, efficient data management systems, and high-performance computing for AI applications.
 
 ## News
 
 <div class="news-item">
-  <span class="news-date">Nov 24, 2025</span> Our work on VecFlow-Chamfer has been accepted at <strong>SIGMOD 2026</strong>!
+  <span class="news-date">Nov 24, 2025</span> Our work on VecFlow-Chamfer has been accepted at&nbsp;<strong>SIGMOD 2026</strong>!
 </div>
 
 <div class="news-item">
-  <span class="news-date">May 23, 2025</span> Our work on VecFlow has been accepted at <strong>SIGMOD 2026</strong>!
+  <span class="news-date">May 23, 2025</span> Our work on VecFlow has been accepted at&nbsp;<strong>SIGMOD 2026</strong>!
 </div>
 
 ## Selected Papers
@@ -31,13 +29,13 @@ Feel free to reach out via [email](mailto:cmo8@illinois.edu) if you are interest
     <small>¹University of Illinois Urbana-Champaign, ²Nvidia, ³Microsoft<br>
     *Both authors contributed equally to this research. †Work done while intern at UIUC.</small>
   </div>
-  <div class="paper-venue"><em>Proceedings of the 2026 ACM SIGMOD International Conference on Management of Data. 2026</em></div>
+  <div class="paper-venue"><em>Proceedings of the ACM on Management of Data (SIGMOD 2026)</em></div>
   <div class="paper-highlight">
    The first GPU-accelerated filter-based vector search system, delivering up to 100X higher throughput than state-of-the-arts CPU-based solutions!
   </div>
   <div class="paper-buttons">
-    <a href="https://supercomputing-system-ai-lab.github.io/projects/vecflow/">Project Page</a>
-    <a href="https://arxiv.org/abs/2506.00812">arXiv</a>
+    <a href="https://dl.acm.org/doi/10.1145/3749189">Paper</a>
+    <a href="https://supercomputing-system-ai-lab.github.io/projects/vecflow/">Project</a>
     <a href="https://github.com/Supercomputing-System-AI-Lab/VecFlow/tree/main/vecflow">Code</a>
   </div>
 </div>
