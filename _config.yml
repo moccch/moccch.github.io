@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Chenghao Mo"
 title_separator          : "-"
 name                     : &name "Chenghao Mo"
-description              : &description "MSCS Student at UIUC"
+description              : &description "PhD Student at UIUC"
 url                      : https://moccch.github.io # Update this with your GitHub username
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "moccch/moccch.github.io" # Update with your GitHub username
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Chenghao Mo"
   pronouns         : "he/him"  
-  bio              : "MSCS Student at UIUC"
+  bio              : "PhD Student at UIUC"
   location         : "Champaign, IL"
   employer         : "UIUC"
   uri              : # URL
